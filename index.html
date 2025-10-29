@@ -5,14 +5,18 @@
   <head>
     <meta charset="UTF-8">
     <title>Typography Demo</title>
-   
-   <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Carter+One&family=Inria+Serif:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&family=Italiana&display=swap" rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Carter+One&family=Inria+Serif:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&family=New+Amsterdam&display=swap" rel="stylesheet">
 
     <style>
+      html {
+        font-size: 16px;
+      }
+
       h1 {
-        font-size: 2em;
+        font-size: 2.6em;
         font-family: "Carter One", system-ui;
         font-weight: 400;
         font-style: normal;
@@ -22,8 +26,8 @@
       }
 
       h2 {
-        font-size: 1.7em;
-        font-family: "Italiana", sans-serif;
+        font-size: 2.4em;
+        font-family: "New Amsterdam", sans-serif;
         font-weight: 400;
         font-style: normal;
         margin-bottom: .5em;
@@ -48,19 +52,19 @@
         font-style: normal;
         padding: 0px;
         margin: 0 0 .75em 0;
-        line-height: 1.2em;
-        letter-spacing: 2px;
+        line-height: 1.5em;
+        letter-spacing: 1px;
       }
-      
+
       li {
         font-size: 1em;
         font-family: "Inria Serif", serif;
         font-weight: 400;
         font-style: normal;
         padding: 0px;
-        margin: 0 0 .75em 0;
+        margin: 0 0 .5em 0;
         line-height: 1.2em;
-        letter-spacing: 2px;
+        letter-spacing: 1px;
       }
 
       .container {
@@ -84,6 +88,10 @@
 
       .container div.ingredients {
         grid-area: ingredients;
+        background-color: white;
+        height: 360px;
+        padding-left: 15px;
+        padding-right: 15px;
       }
 
       .container div.preparation {
